@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body style="font-family: 'Roboto', sans-serif; margin: 0; padding: 0; background-color: #f4f4f4;">
+    <div style="background-color: #35424a; color: white; padding: 40px 20px; text-align: center;">
+        <h1>Sign Up</h1>
+    </div>
+
+    <div style="padding: 20px; display: flex; flex-direction: column; align-items: center;">
+        <div style="background-color: white; border: 1px solid #ddd; border-radius: 5px; margin: 20px auto; padding: 20px; width: 300px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+            <form action="submit_signup.php" method="POST">
+                <label for="username" style="margin-bottom: 5px;">Username:</label>
+                <input type="text" id="username" name="username" required style="margin-bottom: 15px; padding: 10px; border: 1px solid #ddd; border-radius: 5px; width: 100%;">
+
+                <label for="email" style="margin-bottom: 5px;">Email:</label>
+                <input type="email" id="email" name="email" required style="margin-bottom: 15px; padding: 10px; border: 1px solid #ddd; border-radius: 5px; width: 100%;">
+
+                <label for="password" style="margin-bottom: 5px;">Password:</label>
+                <input type="password" id="password" name="password" required style="margin-bottom: 15px; padding: 10px; border: 1px solid #ddd; border-radius: 5px; width: 100%;">
+
+                <label for="confirm-password" style="margin-bottom: 5px;">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required style="margin-bottom: 15px; padding: 10px; border: 1px solid #ddd; border-radius: 5px; width: 100%;">
+
+                <button type="submit" style="background-color: #e8491d; color: white; border: none; padding: 10px; border-radius: 5px; cursor: pointer; width: 100%;">Sign Up</button>
+            </form>
+            <p style="text-align: center;">Already have an account? <a href="login.html">Log In</a></p>
+        </div>
+    </div>
+
+    <div style="text-align: center; padding: 20px; background-color: #35424a; color: white;">
+        <p>&copy; AcRo Movies. All rights reserved.</p>
+    </div>
+</body>
+</html>a
